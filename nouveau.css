@@ -1,0 +1,574 @@
+.entête
+{
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+.logo
+{
+    width: 20%;
+    height: 25%;
+}
+/*partie logo + menus fixe */
+
+
+
+
+
+
+.menus
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1vw;
+    top:4%;
+    list-style: none;
+    position: fixed;
+    right: 15%;
+    z-index: 8;
+    font-family: 'glyphicons-halflings-regular','fontawesome',sans-serif;
+    background-color: white;
+  
+    
+}
+.menus a
+{
+    text-decoration: none;
+    margin: 8px;
+    color: #64686d;
+    
+}
+
+a:hover
+{
+    color: #5cadd3;
+    text-decoration:overline;
+   
+  
+    
+  
+}
+/*fin partie logo + menus fixe*/
+
+/* partie image et texte a superposer*/
+.image
+{
+    display: flex;
+    top: 15%;
+    bottom: 20%;
+    
+    width: 100%;
+   
+    position: absolute;
+
+}
+
+.texte
+{  
+   
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   z-index: 6;
+   margin-top: 10%;
+   left: 10%;
+    color: white;
+    
+    font-family: 'glyphicons-halflings-regular', 'fontawesome',sans-serif;
+    
+  
+}
+.texte h3
+{
+    font-size: 2.3vw;
+    font-weight: bold;
+}
+.texte p
+{
+font-size: 1vw;
+}
+.texte span
+{
+    color: #5cadd3;
+}
+.bouton
+{
+    background-color: #5cadd3;
+      border: 3px solid #5cadd3;
+      border-top-left-radius : 3px;
+      border-bottom-left-radius : 3px;
+      border-top-right-radius : 3px;
+      border-bottom-right-radius : 3px;
+      font-family: 'awesome',sans-serif;
+      color: white !important;
+      width:10%;
+      height: 50px;
+      font-size: 1.5vw;
+      
+}
+
+.fleche
+{
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+   
+    color: black;
+    position: relative ;
+    margin-left:1.2%;     
+
+}
+
+
+
+
+.résumé
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pts-titre
+{
+    display: flex;
+    margin-left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5cadd3;
+    text-decoration: line-through;
+}
+
+
+
+/*debut partie services*/
+#service
+{
+    display: flex;
+    justify-content: space-between;
+    flex:wrap;
+}
+#titre-service
+{
+    text-align: center;
+    margin-top: 15%;
+}
+#service p 
+{
+    color: black;
+    padding-left: 1%;
+    padding-top: 1%;
+    
+}
+#service h3 
+{
+    
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+
+
+.nos-services
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+}
+
+.nos-services p
+{
+    font-size: 1.1vw; 
+}
+
+.pts-bleu 
+{
+   
+	
+    height: 10px;
+  width: 10px;
+  background-color: #5cadd3;
+  border-radius: 50%;
+ display: flex;
+ margin-top: 25px;
+ margin-left: 55px;
+}
+.paracone .fas
+{
+    
+    
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    
+    color: #5cadd3;
+}
+.iconeux
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:126%;
+	
+}
+.iconeui
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:150%;
+	
+}
+.iconeseo
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:173%;
+	
+}
+
+
+/*fin partie services*/
+
+/*debut partie projet*/
+.cadre-gris
+{
+    background-color: #f5f5f5;
+}
+#titre-projet
+{
+text-align: center;
+padding-top: 3%;
+}
+
+
+
+
+.photos 
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    
+}
+
+.photos img 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    height: 30%;
+    margin-top: 1.8%;
+}
+
+.infos-bulle
+{
+    top:20%;
+    width: 19.6%;
+    height: 10.6%;
+    display:none ;
+    position: absolute;
+    z-index: 8;
+
+
+}
+.noir
+{
+    padding: 2px;
+    opacity: 0.4;
+   background-color: black;
+   width: 100%;
+   height: 70px;
+   position: absolute ;
+}
+
+
+.infos-bulle h2 , p
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8vw;
+    color: white; 
+}
+
+
+.portfolio-img:hover+.infos-bulle
+{
+    display: block;
+    z-index: 10;
+    
+}
+
+.pts-bulle
+{
+    position: absolute;
+    top: -16%;
+    left: 80.9%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#5cadd3;
+    
+}
+
+.far 
+{
+    position: absolute;
+    top: -11%;
+    left: 82%;
+    display: flex;
+    color: #f6f9fa;
+    z-index: 9;
+}
+.font-bulle
+{
+    position: absolute;
+    top: -19%;
+    left: 80.1%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#f6f9fa;
+    
+}
+/*css test des boutons*/
+
+  
+  
+  #bouton-galerie
+  {
+      margin-top: 30px;
+      margin-bottom: 40px;
+  }
+  
+  #bouton-galerie ul
+  {
+      margin: 0px;
+      padding:0px;
+      list-style-type: none;
+      width: 356px;
+      height: 40px;
+      background-color: #e5e5e5;
+      border-radius: 3px;
+      margin: 0 auto;
+  }
+  
+  #bouton-galerie li
+  {
+      float: left;
+      width: 89px;
+      height: 40px;
+      text-align: center;
+      line-height: 40px;
+      position: relative;
+  }
+  
+  #bouton-galerie li a
+  {
+      display: block;
+      text-decoration: none;
+      color: #64686d;
+  }
+  
+  #bouton-galerie  li :hover
+  {
+      background-color: #5cadd3;
+      border-bottom: 3px solid #468cad;
+      color: white !important;
+  }
+  
+  
+  
+  .active a 
+  {
+      background-color: #5cadd3 !important;
+      border-bottom: 3px solid #468cad;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      color: white !important;
+  }
+  
+  .fleche_bulle 
+  {	position: absolute;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid;
+    margin-left:30px;
+    color:#5cadd3;
+  }
+  /*fin test css bouton*/
+/*fin partie projet*/
+/*final*/
+
+iframe
+{
+    position: absolute;
+    margin-top: 5%;
+}
+#font-map
+{
+    border: 1px solid #5cadd3;
+    background-color: #5cadd3;
+    opacity: 0.6;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 5%;
+}
+
+#posi-formu
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1%;
+}
+
+
+#formulaire 
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-right: 12%;
+    border: 1px solid black;
+    opacity: 0.7;
+    background-color: aliceblue;
+    z-index: 10;
+    padding: 5px;
+    width:220px;
+    height: 450px;
+    
+}
+#formulaire input
+{
+    padding-top: 2%;
+    margin-top: 3%;
+    margin-bottom:3%;
+}
+
+.envoyer
+{
+    display: flex;
+    background-color: #5cadd3;
+    border-color: #5cadd3;
+    color: white;
+    font-size: 1vw;
+    padding-bottom: 2%;
+    width:90px;
+    height: 35px;
+}
+/*fin*/
+
+/*partie polic de caractere */
+
+p
+{
+    font-family: 'fontawesome','glyphicons-halflings-regular', sans-serif;
+}
+
+h1
+{
+    font-family:  'glyphicons-halflings-regular','fontawesome',sans-serif;
+}
+
+/*partie media queries*/
+
+@media screen and (max-width: 1200px)
+{
+    .image-pc
+    {
+        display: none;
+    }
+    #service  
+    {
+        display: flex;
+        justify-content: center;
+        color: black;
+    
+    }
+    #service p 
+    {
+        font-size: 0.9vw;
+    }
+    .nos-services
+    {
+        
+        left: 50%;
+        text-align: center;
+    }
+
+    .iconeux
+    {
+        width: 35px;
+	    height: 35px;
+	    border: solid rgb(220, 220, 220) 2px;
+        border-radius: 50%;
+        position: absolute;
+        left:42% ;
+        top:117%;
+    }
+
+    .iconeui
+    {
+        width: 35px;
+	    height: 35px;
+	    border: solid rgb(220, 220, 220) 2px;
+        border-radius: 50%;
+        position: absolute;
+        left:42% ;
+        top:137%;
+    }
+
+    .iconeseo
+    {
+        width: 35px;
+	    height: 35px;
+	    border: solid rgb(220, 220, 220) 2px;
+        border-radius: 50%;
+        position: absolute;
+        left:45% ;
+        top:158%;
+    }
+
+    .fas
+    {
+        left: 10px;
+        bottom:10px;
+    }
+
+    .pts-bleu
+    {
+        display: none;
+    }
+
+    
+}

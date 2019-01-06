@@ -1,0 +1,74 @@
+#service
+{
+    display: flex;
+    justify-content: space-between;
+    flex:wrap;
+}
+.nos-services
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+   
+    width: 45%;
+    height: 100%;
+}
+
+
+.iconeux
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:21%;
+	
+}
+.iconeui
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:44%;
+	
+}
+.iconeseo
+{
+    width: 60px;
+	height: 60px;
+	border: solid rgb(220, 220, 220) 2px;
+    border-radius: 50%;
+    position: absolute;
+    left:45% ;
+    top:65%;
+	
+}
+
+.pts-bleu
+{
+   
+	
+    height: 10px;
+  width: 10px;
+  background-color: #5cadd3;
+  border-radius: 50%;
+ display: flex;
+ margin-top: 25px;
+ margin-left: 55px;
+}
+
+.fas
+{
+    
+    
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    
+    color: #5cadd3;
+}

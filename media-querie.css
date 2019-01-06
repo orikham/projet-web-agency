@@ -1,0 +1,10 @@
+/* Parties media queries debut */
+
+@media screen and (max-width: 1200px)
+{
+    body
+    {
+        display: none;
+    }
+    
+}

@@ -1,0 +1,29 @@
+
+/* Parties polices de caractères debut */
+
+@font-face
+{
+    font-family: 'fontawesome';
+    src: url('webagency_images/fonts/fontawesome-webfont.eot') format('eot'),
+         url('webagency_images/fonts/fontawesome-webfont.svg') format('svg'),
+         url('webagency_images/fonts/fontawesome-webfont.ttf') format('truetype'),
+         url('webagency_images/fonts/fontawesome-webfont.woff') format('woff');
+}
+
+@font-face
+{
+    font-family: 'glyphicons-halflings-regular';
+    src: url('webagency_images/fonts/glyphicons-halflings-regular.eot') format('eot'),
+         url('webagency_images/fonts/glyphicons-halflings-regular.svg') format('svg'),
+         url('webagency_images/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('webagency_images/fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+
+         
+
+
+
+
+/* Parties polices de caractères fin */
+

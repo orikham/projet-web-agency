@@ -1,0 +1,76 @@
+.infos-bulle
+{
+    top:20%;
+    width: 19.6%;
+    height: 10.6%;
+    display:none ;
+    position: absolute;
+    z-index: 8;
+
+
+}
+.noir
+{
+    padding: 2px;
+    opacity: 0.4;
+   background-color: black;
+   width: 100%;
+   height: 70px;
+   position: absolute ;
+}
+
+
+.infos-bulle h2 , p
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8vw;
+    color: white; 
+}
+
+.test img
+{
+    display: flex;
+    width: 20%;
+    height: 30%;
+    margin-top: 1.8%;
+    padding :1px;
+}
+.test img:hover+.infos-bulle
+{
+    display: block;
+    
+}
+
+.pts-bulle
+{
+    position: absolute;
+    top: -16%;
+    left: 80.9%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#5cadd3;
+    
+}
+
+.far 
+{
+    position: absolute;
+    top: -11%;
+    left: 82%;
+    display: flex;
+    color: #f6f9fa;
+    z-index: 9;
+}
+.font-bulle
+{
+    position: absolute;
+    top: -19%;
+    left: 80.1%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#f6f9fa;
+    
+}
